@@ -104,3 +104,51 @@ body {
   margin: 0;
 }
 
+/* Task 4*/
+.login-form{
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.login-form label{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-form label input{
+  max-width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  }
+
+  .login-form label input:hover{
+    border: 1px solid #000;
+    }
+
+
+  .login-form button{
+    border-radius: 8px; 
+    border: 1px solid;
+    background: #4E75FF;
+    width: 86px;
+    height: 40px;
+    color: #FFF;
+    font-weight: 500;
+    line-height:1.5; /* 150% */
+    letter-spacing: 0.64px;
+    margin-top: 8px;
+  }
+
+  .login-form button:hover{
+  background: #6C8CFF;
+  }
