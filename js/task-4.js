@@ -12,12 +12,11 @@ const userData = {
     password,
 };
 
-if (userData.email === "" || password.password === "") {
+if (userData.email === "" || userData.password === "") {
     alert("All form fields must be filled in");
   } else{
  console.log(userData);
+ form.reset();
   };
   
-form.reset();
-
 }

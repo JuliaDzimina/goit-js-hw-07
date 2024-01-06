@@ -31,7 +31,7 @@ const images = [
 const gallery = document.querySelector('.gallery');
 
 const makeup = images.map(({ url, alt }) =>{
-  return `<li><img class="img-task-2" src="${url} alt="${alt}" width = "360"></li>`; 
+  return `<li><img  src="${url}" alt="${alt}" width = "360"></li>`; 
   }).join(' ');
   
 gallery.insertAdjacentHTML('afterbegin', makeup );
