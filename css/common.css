@@ -178,3 +178,56 @@ body {
   width: 148px;
   height: 40px;
   }
+
+    
+/* Task 6*/
+#controls{
+  display: flex;
+  gap: 16px;
+  margin: 32px;
+}
+
+#controls input{
+width: 150px;
+height: 40px;
+text-align: center;
+color: #2E2F42;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
+border-radius: 8px;
+border: 1px solid #808080;
+}
+
+#controls input:hover{
+border: 1px solid #000;
+}
+
+#controls button{
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+  padding: 8px 16px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+.btn-create{
+  background: #4E75FF;
+}
+
+.btn-destroy{
+  background: #FF4E4E;
+}
+
+#boxes{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
