@@ -16,9 +16,10 @@ function getRandomHexColor() {
 
 function createBoxes() {
 
- const  amount = Number(inputNumber.value);;
+ const  amount = Number(inputNumber.value);
   if (amount < 1 || amount > 100) {
-    boxes.innerHTML = '';
+    inputNumber.value = '';
+    return;
   }
   
   let sizeBox = 30;
